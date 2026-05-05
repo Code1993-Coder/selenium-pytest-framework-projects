@@ -1,0 +1,33 @@
+{
+  "valid_search": [
+    {
+      "search_text": "Blue and green Sneaker","quantity":"2","size":"8","color":"White"
+    },
+    { "search_text": "$100 Physical Gift Card","quantity":"3" },
+    { "search_text": "1MP 60GB Hard Drive Handycam Camcorder","color":"Yellow" },
+    { "search_text":"Blue Jeans","quantity":"2","size":"L","color":"Blue" }
+  ],
+  "key_word_search": [
+    {
+      "search_text": "card"
+    },
+    {
+      "search_text": "laptop"
+    },
+    {
+      "search_text": "shirt"
+    }
+  ],
+  "invalid_search":[
+    {
+    "search_text": "kicthen"
+  },
+    {
+    "search_text": "clothes"
+  },
+    {
+    "search_text": "cable"
+  }
+  ]
+
+}

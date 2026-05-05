@@ -1,0 +1,88 @@
+{
+  "positive_registration": [
+    {
+      "first_name": "Tina",
+      "last_name": "Mathur",
+      "password": "test123",
+      "gender": "Male"
+    },
+    {
+      "first_name": "Lily",
+      "last_name": "Jones",
+      "password": "test456",
+      "gender": "Female"
+    }
+  ],
+
+  "missing_first_name": [
+    {
+      "first_name": "",
+      "last_name": "Mathur",
+      "password": "test123",
+      "gender": "Male"
+    }
+  ],
+
+  "missing_last_name": [
+    {
+      "first_name": "Lily",
+      "last_name": "",
+      "password": "test123",
+      "gender": "Male"
+    }
+  ],
+
+  "missing_email": [
+    {
+      "first_name": "Lily",
+      "last_name": "Mathur",
+      "email": "",
+      "password": "test123",
+      "gender": "Male"
+    }
+  ],
+
+  "invalid_email_format": [
+    {
+      "first_name": "Lily",
+      "last_name": "Mathur",
+      "email": "@gmail.com",
+      "password": "test123",
+      "gender": "Male"
+    }
+  ],
+
+  "password_mismatch": [
+    {
+      "first_name":"Lily",
+      "last_name":"Mathur",
+      "password":"test123",
+      "confirm_password":"test12345",
+      "gender":"Male"
+    }
+  ],
+
+  "existing_user": [
+    {
+      "first_name": "Lily",
+      "last_name": "Mathur",
+      "password": "test123",
+      "gender": "Male"
+    }
+  ],
+
+  "password_too_short": [
+    {
+      "first_name": "Lily",
+      "last_name": "Mathur",
+      "password": "test",
+      "gender": "Male"
+    }
+
+  ],
+  "invalid_login_credentials": [{"password": "test1234"}],
+  "missing_credentials": [{
+    "email": " ",
+    "password":" "
+  }]
+}
